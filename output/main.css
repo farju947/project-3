@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
-    span{
+    .span{
         @apply text-[#F44335];
     }
     .btn{
@@ -20,4 +20,12 @@
 
     .h1design{
         @apply font-bold text-[24px] border-b border-b-[#F9CCC7] border-b-[1px] py-6 w-[90%] mx-auto;
-    };
+    }
+    .btndesign{
+        @apply border border-[#F44335] rounded-[100px] inline px-3 py-1 font-medium hover:scale-105 hover:transition-all cursor-pointer
+    }
+    .btnforcourse{
+        @apply px-2 py-1 w-[170px] text-center font-medium border uppercase rounded-[100px]  border-black cursor-pointer hover:scale-105 hover:transition-all
+    }
+}
+
